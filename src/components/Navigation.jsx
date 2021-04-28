@@ -11,6 +11,7 @@ const Container = styled.div`
     height: 80px;
     display: flex;
     justify-content: space-between;
+    background-color: none;
 `;
 
 const LogoWrapper = styled.div`
@@ -36,13 +37,22 @@ width: 300px;
 `;
 
 const NavItems = styled(Link)`
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
+    margin: 4px 2px;
 `;
 
 const Button = styled(Link)`
+    display:inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    margin: 4px 2px;
+    border-radius: 16px;
+    background: linear-gradient(140.92deg, #EAD270 14.94%, #F6E384 85.48%);
     text-decoration: none;
 `;
 const ButtonWrapper = styled(Link) `
