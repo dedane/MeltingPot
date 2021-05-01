@@ -16,14 +16,16 @@ const Container = styled.div`
 const Reimagining = styled.div`
 
     width: 500px;
-    
     height: 100px;
     bacground-color: green;
-    align: center;
+    text-align: left;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-right: 50px;
+    padding: 50px; 
     h1{
         font-size: 50px;
+        font-family: Sansation;
     }
     p{
         margin-top: 5px;
@@ -33,14 +35,17 @@ const Reimagining = styled.div`
 
 `;
 const HeroImage = styled.div`
-width: 500px;
-height: 50%;
-position: absolute;
 z-index: -1;
 margin-right: 200px
 left: 50px;
 align: center;
 justify-content: center;
+img{
+    width: 700px;
+    height: auto;
+    object-fit: contain;
+    
+}
 
 `;
 const ButtonWrapper = styled(Link) `
@@ -53,11 +58,11 @@ const ButtonWrapper = styled(Link) `
 
 const Button = styled(Link)`
     display:inline-block;
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-decoration: none;
     text-align: center;
     justify-content: center;
-    margin: 4px 2px;
+    margin: 20px 10PX;
     border-radius: 16px;
     background: linear-gradient(140.92deg, #EAD270 14.94%, #F6E384 85.48%); 
 `;
@@ -68,10 +73,11 @@ function Innovation() {
             <Container>
                 <Reimagining>
                     <h1>Reimagining Innovation</h1>
-                    <p>CREATE YOUR FUTURE THROUGH DIGITAL 
-                        TRANSFORMATION & ENTERPRENURESHIP Copy</p>
+                    <p>Create your future through digital transformation & <br></br>
+                        enterprenureship
+                    </p>
                         <ButtonWrapper>
-                        <Button>Innovate Now</Button>
+                        <Button>WORK WITH US</Button>
                     </ButtonWrapper>
                 </Reimagining>
                 <HeroImage>

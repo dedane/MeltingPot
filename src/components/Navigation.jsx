@@ -11,7 +11,7 @@ const Container = styled.div`
     height: 80px;
     display: flex;
     justify-content: space-between;
-    background-color: none;
+    backgroundColor: transparent;
 `;
 
 const LogoWrapper = styled.div`
@@ -29,6 +29,7 @@ const LogoWrapper = styled.div`
 `;
 
 const NavMenu = styled.div`
+backgroundColor: transparent;
 display: flex;
 align-items: center;
 text-decoration: none;
