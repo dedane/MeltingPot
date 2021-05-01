@@ -35,6 +35,8 @@ const Reimagining = styled.div`
 const HeroImage = styled.div`
 width: 500px;
 height: 50%;
+position: absolute;
+z-index: -1;
 margin-right: 200px
 left: 50px;
 align: center;
