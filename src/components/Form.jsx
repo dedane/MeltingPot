@@ -69,15 +69,15 @@ const InfoWrapper = styled.div`
 
 `;
 const Button = styled(Link)`
-    display:inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
-    margin: 4px 2px;
-    border-radius: 16px;
-    background: linear-gradient(140.92deg, #EAD270 14.94%, #F6E384 85.48%);
-    text-decoration: none;
+display:inline-block;
+padding: 10px 30px;
+text-color:  rgba(30, 20, 12, 1);
+text-decoration: none;
+text-align: center;
+justify-content: center;
+margin: 20px 10PX;
+border-radius: 25px;
+background: linear-gradient(140.92deg, #EAD270 14.94%, #F6E384 85.48%); 
     
 `;
 
