@@ -9,8 +9,9 @@ display: flex;
 
 const ImgWrapper = styled.div`
 img {
-    width: 700px;
-    height: 660;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
 
 }
 `;

@@ -1,6 +1,6 @@
 import React from 'react'
 import Form from '../components/Form';
-import Money from '../components/Money';
+//import Money from '../components/Money';
 import styled from 'styled-components';
 
 const Container = styled.div`
@@ -13,7 +13,7 @@ function SignUp() {
             
             <Form></Form>
             
-            <Money></Money>
+    {/*         <Money></Money> */}
             
             
         </Container>

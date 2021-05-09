@@ -9,6 +9,7 @@ const Container =styled.div`
     width: 50%;
 `
 const LogoWrapper = styled.div`
+    margin-top: 120px;
     align-items: center;
     font-size: 20px;
     img {
@@ -80,8 +81,24 @@ const Button = styled(Link)`
     
 `;
 
+const Column = styled.div`
+display: flex;
+
+
+`
+
+const ImgWrapper = styled.div`
+img {
+    width: 100%;
+    height: auto;
+    object-fit: fit;
+
+}
+`;
+
 function Form() {
     return (
+        <>
         <Container>
             <LogoWrapper>
                 <img src="https://ik.imagekit.io/qpt2onjfe/Meltingpot/Logo/favicon_HYYfZhUf4g.ico" alt="Logo">       
@@ -116,8 +133,15 @@ function Form() {
                     
                 </form>
             </FormWrapper>
-            
         </Container>
+        <Container>
+             <Column>
+            <ImgWrapper>
+            <img src="https://ik.imagekit.io/ugyodiq15/sprout-money_QekEH9aeM.png" alt="sprout-money"></img>
+            </ImgWrapper>
+            </Column>
+        </Container>
+        </>
     )
 }
 
