@@ -51,24 +51,26 @@ img{
 const ButtonWrapper = styled(Link) `
     font-size: 18px;
     font-weight: 700;
-    text-decoration: none;
     color: black;
     align-items: center;
+    text-decoration: none;
+    
+    
 `
 const HexImg1 = styled.div`
-position: relative;
+ position: absolute;
 margin-bottom: 600px;
 z-index: auto;
-align: center;
+align: start;
 justify-content: center;
-left: 200px;
-bottom: 250px;
+top: 500px;
+right: 10px;
 img{
     opacity: 90%;
     width: 280px;
     height: auto;
     object-fit: contain;
-}
+} 
 `
 const HexImg2 = styled.div`
 position: relative;
@@ -96,7 +98,6 @@ img{
     height: auto;
     object-fit: contain;
 }
-
 `
 
 const Button = styled(Link)`
@@ -108,6 +109,9 @@ const Button = styled(Link)`
     margin: 20px 10PX;
     border-radius: 16px;
     background: linear-gradient(140.92deg, #EAD270 14.94%, #F6E384 85.48%); 
+    Link{
+        text-decoration: none;
+    }
 `;
 
 function Innovation() {
@@ -120,7 +124,7 @@ function Innovation() {
                         enterprenureship
                     </p>
                         <ButtonWrapper>
-                        <Button > <Link to="SignUp">WORK WITH US</Link></Button>
+                        <Button> <Link to="SignUp"  style={{ textDecoration: 'none' }}>WORK WITH US</Link></Button>
                     </ButtonWrapper>
                     <HexImg3>
                         <img src="https://ik.imagekit.io/ugyodiq15/hex2__9oQnuLNr.svg" alt=""></img>
