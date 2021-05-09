@@ -55,6 +55,49 @@ const ButtonWrapper = styled(Link) `
     color: black;
     align-items: center;
 `
+const HexImg1 = styled.div`
+position: relative;
+margin-bottom: 600px;
+z-index: auto;
+align: center;
+justify-content: center;
+left: 200px;
+bottom: 250px;
+img{
+    opacity: 90%;
+    width: 280px;
+    height: auto;
+    object-fit: contain;
+}
+`
+const HexImg2 = styled.div`
+position: relative;
+margin-bottom: 600px;
+z-index: auto;
+align: center;
+justify-content: center;
+left: 250px;
+img{
+    opacity: 60%;
+    width: 200px;
+    height: auto;
+    object-fit: contain;
+}
+`
+const HexImg3 = styled.div`
+position: relative;
+z-index: auto;
+align: center;
+justify-content: center;
+left:700px;
+img{
+    opacity: 60%;
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+
+`
 
 const Button = styled(Link)`
     display:inline-block;
@@ -77,14 +120,25 @@ function Innovation() {
                         enterprenureship
                     </p>
                         <ButtonWrapper>
-                        <Button>WORK WITH US</Button>
+                        <Button > <Link to="SignUp">WORK WITH US</Link></Button>
                     </ButtonWrapper>
+                    <HexImg3>
+                        <img src="https://ik.imagekit.io/ugyodiq15/hex2__9oQnuLNr.svg" alt=""></img>
+                    </HexImg3>
                 </Reimagining>
+                <HexImg2>
+                    
+                    <img src="https://ik.imagekit.io/ugyodiq15/hex3_7NB1sdhR-.svg" alt=""></img>
+                </HexImg2>
                 <HeroImage>
                 <img src="https://res.cloudinary.com/dkq3tnpwu/image/upload/v1619638214/seedling-stock_aovit4.png" alt="Logo">
                         
                         </img>
+                        <HexImg1>
+                    <img src="https://ik.imagekit.io/ugyodiq15/hex1_tnmztGr_0i.svg" alt=""></img>
+                </HexImg1>
                 </HeroImage>
+                
 
             </Container>
         </Wrapper>
