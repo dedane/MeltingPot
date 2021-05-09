@@ -19,28 +19,35 @@ const LogoWrapper = styled.div`
 
 `;
 const ButtonWrapper = styled.div`
+top: 120px;
 
 `;
 const FormWrapper = styled.div`
     width:100%;
-    display: flex;
-    text-align: center;
+    display: block;
+    justify-content: center;
+    align: center;
     flex-flow: column wrap;
 `;
 const FormContent = styled.div`
+display: block;
 width: 100%;
 margin-top: 20px;
-text-align: left;
-@media all and (min-width: 768px) {
+align: center;
+border-box
+/* @media all and (min-width: 768px) {
   height: 70px;
   width: 100%;
   display: grid;
   grid-template-rows:1fr;
   grid-template-columns: 0.3fr 1fr;
   position:relative;
-}
+} */
+
 `;
 const FormLabel = styled.label`
+display: block;
+margin-right: 620px;
 font-weight: 400;
 font-size: 15px;
 line-height: 19px;
@@ -70,6 +77,7 @@ const Button = styled(Link)`
     border-radius: 16px;
     background: linear-gradient(140.92deg, #EAD270 14.94%, #F6E384 85.48%);
     text-decoration: none;
+    
 `;
 
 function Form() {

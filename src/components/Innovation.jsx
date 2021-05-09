@@ -102,16 +102,15 @@ img{
 
 const Button = styled(Link)`
     display:inline-block;
-    padding: 10px 10px;
+    padding: 10px 30px;
+    text-color:  rgba(30, 20, 12, 1);
     text-decoration: none;
     text-align: center;
     justify-content: center;
     margin: 20px 10PX;
-    border-radius: 16px;
+    border-radius: 25px;
     background: linear-gradient(140.92deg, #EAD270 14.94%, #F6E384 85.48%); 
-    Link{
-        text-decoration: none;
-    }
+    
 `;
 
 function Innovation() {
